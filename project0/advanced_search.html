@@ -10,8 +10,12 @@
 </head>
 <body>
     <form action="https://google.com/search">
-        <input type="text" name="q">
-        <input type="submit" value="Google Search">
+    <label for="allwords">all these words:</label>        <input id="allwords" type="text" name="as_q">
+    <label for="allwords">this exact word or phrase:</label>           <input id="somewords" type="text" name="as_epq">
+    <label for="allwords">any of these words:</label>       <input type="text" name="as_oq">
+    <label for="allwords">none of these words:</label>       <input type="text" name="as_eq">        
+        <input type="submit" value="Advanced Search">
     </form>
+    <a href="index.html">Menu</a>
 </body>
 </html>

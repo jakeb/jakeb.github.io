@@ -1,4 +1,7 @@
 <!DOCTYPE html>
+<!-- https://stackoverflow.com/questions/21530274/format-for-a-url-that-goes-to-google-image-search
+    https://www.google.com/search?tbm=isch&q=findSomeImage,
+-->
 <html>
 <head>
     <meta charset="utf-8" />
@@ -9,9 +12,11 @@
     <script src="main.js"></script>
 </head>
 <body>
-    <form action="https://google.com/search?sclient=img">
+    <form action="https://google.com/search">
         <input type="text" name="q">
-        <input type="submit" value="Google Search">
+        <input id="search_type" type="text" name="tbm" style="display: none" value="isch">
+        <input type="submit" value="Image Search">
     </form>
+    <a href="index.html">Menu</a>
 </body>
 </html>
