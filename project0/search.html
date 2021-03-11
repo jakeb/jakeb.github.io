@@ -8,11 +8,38 @@
     <link rel="stylesheet" type="text/css" media="screen" href="main.css" />
     <script src="main.js"></script>
 </head>
+
 <body>
-    <form action="https://google.com/search">
-        <input type="text" name="q">
-        <input type="submit" value="Google Search">
-    </form>
-    <a href="index.html">Menu</a>
+
+    <div id="menu" style="text-align: left; width: 25%; padding-right: 10px; margin-right:0px; margin-left: auto; border:2px; border-style: solid;">
+        <ul>
+            <li>Click <a href="search.html">here</a> to do a regular search</li>
+            <li><a href="advanced_search.html">Advanced Search</a></li>
+            <li><a href="image_search.html">Image Search</a></li>
+        </ul>
+    </div>
+    <div  style="text-align: center;">
+        <form action="https://google.com/search">
+            <label for="search">Search:</label>
+            <input id="search" type="text" name="q" style="border-radius: 5px; ">
+            <input type="submit" value="Google Search" >
+            <input type="submit" name="I'm feeling Lucky" >
+            <button name="tbm" value="isch">Image Search</button>
+            <button name="btnl" value="Search">Lucky 1</button>
+            <button name="btnI" value="I">Lucky 2</button>
+        </form>    
+    </div>
+
+        <div>
+            <form action="" method="get">
+
+                <input type="submit" name="sb" value="One">
+                <input type="submit" name="sb" value="Two">
+                <input type="submit" name="sb" value="Three">
+                <button name="tbm" value="tbm">Image Search</button>
+                </form>
+                
+        </div>
+
 </body>
 </html>
